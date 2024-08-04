@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-04T18:14:23 IST" name="Default suite" finished-at="2024-08-04T18:14:56 IST" duration-ms="33267">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@65f8f5ae]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-04T18:14:23 IST" name="Default test" finished-at="2024-08-04T18:14:56 IST" duration-ms="33267">
+      <class name="TestRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestRunner@65f8f5ae]" started-at="2024-08-04T18:14:23 IST" name="setUpClass" finished-at="2024-08-04T18:14:24 IST" duration-ms="937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4b960b5b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@65f8f5ae]" started-at="2024-08-04T18:14:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-04T18:14:53 IST" duration-ms="29112" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Step Definitions are missing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sample Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at stepDefinition.SampleTestStepDefs.user_clicks_on_a_button(SampleTestStepDefs.java:39)
+at ✽.user clicks on a button(file:///F:/FrameworkSetup/UiAuto/src/Fetures/SampleTest.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@65f8f5ae]" started-at="2024-08-04T18:14:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-04T18:14:50 IST" duration-ms="25793" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Step Definitions are missing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sample Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at stepDefinition.SampleTestStepDefs.user_clicks_on_a_button(SampleTestStepDefs.java:39)
+at ✽.user clicks on a button(file:///F:/FrameworkSetup/UiAuto/src/Fetures/SampleTest.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@65f8f5ae]" started-at="2024-08-04T18:14:53 IST" name="tearDownClass" finished-at="2024-08-04T18:14:56 IST" duration-ms="3146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
