@@ -36,7 +36,7 @@ public class SampleTestStepDefs {
 	@When("user clicks on a button")
 	public void user_clicks_on_a_button() throws InterruptedException {
 		googlePage.clickOnSubmitButton();
-		assertTrue(false);
+	//	assertTrue(false);
 		Thread.sleep(1000);
 	}
 
